@@ -181,7 +181,7 @@ const Dashboard: React.FC<DashboardProps> = ({ currentUser }) => {
             <span>Team Performance</span>
           </h2>
           
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto md:overflow-x-visible">
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="text-white/60 border-b border-white/10">
@@ -189,7 +189,7 @@ const Dashboard: React.FC<DashboardProps> = ({ currentUser }) => {
   <th className="p-4 text-sm font-semibold">Total Visits</th>
   <th className="p-4 text-sm font-semibold">Reports</th>
   <th className="p-4 text-sm font-semibold">Planned Doctors</th>
-  <th className="p-4 text-sm font-semibold">Status</th>
+  <th className="p-4 text-sm font-semibold">Status</th>ش
 </tr>
               </thead>
               <tbody>

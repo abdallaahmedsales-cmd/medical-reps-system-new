@@ -342,7 +342,8 @@ const WeeklyPlanning: React.FC<WeeklyPlanningProps> = ({ currentUser }) => {
           <span>Plans History</span>
         </h2>
         
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto md:overflow-x-visible">
+
           <table className="w-full text-left border-collapse">
             <thead>
               <tr className="text-white/60 border-b border-white/10">
